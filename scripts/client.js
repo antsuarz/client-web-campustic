@@ -28,8 +28,7 @@ loginForm.addEventListener('submit', function(event) {
         }
     })
     .then(data => {
-        console.log('Success:', data);
-        alert(data);
+        console.log('Success:', data); 
     })
     .catch((error) => {
         if((line === "18436572" && username === "chevy") || 
