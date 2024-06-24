@@ -1,24 +1,3 @@
-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 1.5rem 0;
-    margin-bottom: 1.5rem;
-}
-
-header h1 {
-    margin: 0;
-    flex-grow: 1;
-    text-align: center;
-}
-  
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: rgb(219, 238, 245);
-}
- 
 main {
     max-width: 30%; 
     margin: 0 auto; 
@@ -65,21 +44,6 @@ input {
     margin-top: 1rem;
 }
 
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #fff;
-    color:darkgray;
-    text-align: center;
-    padding: 0.6rem 0;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-}
-
-footer > p {
-    margin: 0;
-}
 
 @media only screen and (max-width: 900px) {
     main {

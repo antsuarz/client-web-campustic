@@ -1,0 +1,55 @@
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 4rem 2rem 4rem;
+}
+section > div:first-child {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+section > div:first-child img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+section > div:first-child span {
+    font-weight: bold;
+}
+section > div:first-child span + span {
+    font-weight: normal;
+    margin-left: 5px;
+    color: gray;
+}
+section > img {
+    width: 100%;
+    display: block;
+}
+section > div:nth-child(3) {
+    padding: 15px;
+}
+section > div:nth-child(3) h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+section > div:nth-child(3) p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+section > div:last-child {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+section > div:last-child span {
+    font-size: 14px;
+}

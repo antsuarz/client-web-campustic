@@ -13,15 +13,6 @@ function checkAuthentication() {
     .then(response => {
         console.log(response);
         if (response.ok) { 
-            document.getElementById('admin-title').textContent = 'Pantalla de Admin';
-            const adminSection = document.getElementById('admin-section');
-            adminSection.innerHTML = ''; 
-            const paragraph1 = document.createElement('p');
-            paragraph1.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend consequat interdum. Sed sed dolor vitae sem feugiat scelerisque. Nunc egestas mi odio, sit amet luctus mi euismod ac. Etiam ut dolor ex. Morbi varius diam eros, sit amet vulputate sem vulputate quis. Donec a nulla vitae purus sagittis vulputate. Aenean erat mauris, consectetur at scelerisque eu, faucibus ac eros.';
-            adminSection.appendChild(paragraph1); 
-            const paragraph2 = document.createElement('p');
-            paragraph2.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend consequat interdum. Sed sed dolor vitae sem feugiat scelerisque. Nunc egestas mi odio, sit amet luctus mi euismod ac. Etiam ut dolor ex. Morbi';
-            adminSection.appendChild(paragraph2);
             return response.json(); 
         } else { 
             window.location.href = 'login.html'; 
